@@ -1324,12 +1324,3 @@ def random_four_name():
     return "".join(
         random.choices(__last_names2, k=1) + random.choices(__first_names, k=2)
     )
-
-
-# test
-if __name__ == "__main__":
-    print(random_chinese_name())
-    # print(random_two_name())
-    # print(random_three_name())
-    # print(random_three_names())
-    # print(random_four_name())
